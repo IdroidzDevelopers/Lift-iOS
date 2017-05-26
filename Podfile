@@ -6,6 +6,11 @@ target 'Lift' do
   use_frameworks!
 
   # Pods for Lift
+  
+  # Pods for GoogleMaps
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+
 
   target 'LiftTests' do
     inherit! :search_paths
