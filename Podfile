@@ -1,7 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '8.0'
-
-source 'https://github.com/CocoaPods/Specs.git'
+# platform :ios, '9.0'
 
 target 'Lift' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -9,17 +7,14 @@ target 'Lift' do
 
   # Pods for Lift
 
-pod 'GoogleMaps'
-pod 'GooglePlaces'
+  target 'LiftTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
 
-pod 'Google/SignIn'
-
-use_frameworks!
-
-pod 'FacebookCore'
-pod 'FacebookLogin'
-pod 'FacebookShare'
-
-pod 'AFNetworking', '~> 3.0'
+  target 'LiftUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
 
 end
