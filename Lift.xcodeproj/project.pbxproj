@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		557FF0B01ED899FA00A1C29F /* LFSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557FF0AD1ED899FA00A1C29F /* LFSideViewController.swift */; };
+		557FF0B11ED899FA00A1C29F /* LFSideViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557FF0AE1ED899FA00A1C29F /* LFSideViewTableViewCell.swift */; };
+		557FF0B21ED899FA00A1C29F /* LFSideViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 557FF0AF1ED899FA00A1C29F /* LFSideViewTableViewCell.xib */; };
 		55BD34E656947F57E9595C29 /* Pods_Lift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D43200F4D658ADC2204C864 /* Pods_Lift.framework */; };
 		6E920D8B1E9385BB00A9F64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E920D8A1E9385BB00A9F64A /* AppDelegate.swift */; };
 		6E920D901E9385BB00A9F64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E920D8E1E9385BB00A9F64A /* Main.storyboard */; };
@@ -51,6 +54,9 @@
 
 /* Begin PBXFileReference section */
 		4D43200F4D658ADC2204C864 /* Pods_Lift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		557FF0AD1ED899FA00A1C29F /* LFSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFSideViewController.swift; sourceTree = "<group>"; };
+		557FF0AE1ED899FA00A1C29F /* LFSideViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFSideViewTableViewCell.swift; sourceTree = "<group>"; };
+		557FF0AF1ED899FA00A1C29F /* LFSideViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFSideViewTableViewCell.xib; sourceTree = "<group>"; };
 		6E920D871E9385BB00A9F64A /* Lift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E920D8A1E9385BB00A9F64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E920D8F1E9385BB00A9F64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -117,6 +123,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		557FF0AC1ED899FA00A1C29F /* SideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				557FF0AD1ED899FA00A1C29F /* LFSideViewController.swift */,
+				557FF0AE1ED899FA00A1C29F /* LFSideViewTableViewCell.swift */,
+				557FF0AF1ED899FA00A1C29F /* LFSideViewTableViewCell.xib */,
+			);
+			path = SideViewController;
+			sourceTree = "<group>";
+		};
 		6E920D7E1E9385BA00A9F64A = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +170,7 @@
 				6E920D961E9385BB00A9F64A /* LaunchScreen.storyboard */,
 				6E920D991E9385BB00A9F64A /* Info.plist */,
 				6E920D911E9385BB00A9F64A /* Lift.xcdatamodeld */,
+				557FF0AC1ED899FA00A1C29F /* SideViewController */,
 				6E920DBB1E94D99800A9F64A /* LiftSignInViewController.swift */,
 				6E920DBD1E94EA3100A9F64A /* LiftRegisterViewController.swift */,
 				95DE88A21EC2F12B000C0C60 /* LiftUtils.swift */,
@@ -293,7 +310,7 @@
 				TargetAttributes = {
 					6E920D861E9385BB00A9F64A = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = T5Y36AXFUR;
+						DevelopmentTeam = 8ASPD44426;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -341,6 +358,7 @@
 				6E920D981E9385BB00A9F64A /* LaunchScreen.storyboard in Resources */,
 				6E920D951E9385BB00A9F64A /* Assets.xcassets in Resources */,
 				95C773491ECAD8AC00E397D8 /* profileIcon3.png in Resources */,
+				557FF0B21ED899FA00A1C29F /* LFSideViewTableViewCell.xib in Resources */,
 				95C773471ECAD7EB00E397D8 /* navigateIcon.png in Resources */,
 				9519726F1ECB27E300F7911F /* GoogleService-Info.plist in Resources */,
 				95DE88A71EC32BF4000C0C60 /* registerBackground.png in Resources */,
@@ -512,10 +530,12 @@
 				95DE88A31EC2F12B000C0C60 /* LiftUtils.swift in Sources */,
 				95DE88B01EC44EAF000C0C60 /* HomeViewController.swift in Sources */,
 				95DE88B21EC44EC2000C0C60 /* MenuViewController.swift in Sources */,
+				557FF0B11ED899FA00A1C29F /* LFSideViewTableViewCell.swift in Sources */,
 				6E920D931E9385BB00A9F64A /* Lift.xcdatamodeld in Sources */,
 				6E920DBC1E94D99800A9F64A /* LiftSignInViewController.swift in Sources */,
 				95DE88A51EC2F140000C0C60 /* CommonUtils.swift in Sources */,
 				6E920DBE1E94EA3100A9F64A /* LiftRegisterViewController.swift in Sources */,
+				557FF0B01ED899FA00A1C29F /* LFSideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,7 +692,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = T5Y36AXFUR;
+				DEVELOPMENT_TEAM = 8ASPD44426;
 				INFOPLIST_FILE = Lift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.idroidz.Lift;
@@ -689,7 +709,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = T5Y36AXFUR;
+				DEVELOPMENT_TEAM = 8ASPD44426;
 				INFOPLIST_FILE = Lift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.idroidz.Lift;
