@@ -7,32 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		557FF0B01ED899FA00A1C29F /* LFSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557FF0AD1ED899FA00A1C29F /* LFSideViewController.swift */; };
-		557FF0B11ED899FA00A1C29F /* LFSideViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557FF0AE1ED899FA00A1C29F /* LFSideViewTableViewCell.swift */; };
-		557FF0B21ED899FA00A1C29F /* LFSideViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 557FF0AF1ED899FA00A1C29F /* LFSideViewTableViewCell.xib */; };
+		555B9A171EDDD7AB00B22784 /* Lift_Icons.006.png in Resources */ = {isa = PBXBuildFile; fileRef = 555B99F71EDDD7AB00B22784 /* Lift_Icons.006.png */; };
+		555B9A181EDDD7AB00B22784 /* navigateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 555B99F81EDDD7AB00B22784 /* navigateIcon.png */; };
+		555B9A191EDDD7AB00B22784 /* profileIcon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 555B99F91EDDD7AB00B22784 /* profileIcon3.png */; };
+		555B9A1A1EDDD7AB00B22784 /* registerBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 555B99FA1EDDD7AB00B22784 /* registerBackground.png */; };
+		555B9A1B1EDDD7AB00B22784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555B99FC1EDDD7AB00B22784 /* LaunchScreen.storyboard */; };
+		555B9A1C1EDDD7AB00B22784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555B99FD1EDDD7AB00B22784 /* Main.storyboard */; };
+		555B9A1D1EDDD7AB00B22784 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 555B99FF1EDDD7AB00B22784 /* GoogleService-Info.plist */; };
+		555B9A201EDDD7AB00B22784 /* LFSideFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A051EDDD7AB00B22784 /* LFSideFooterView.swift */; };
+		555B9A211EDDD7AB00B22784 /* LFSideFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555B9A061EDDD7AB00B22784 /* LFSideFooterView.xib */; };
+		555B9A221EDDD7AB00B22784 /* LFSideHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A071EDDD7AB00B22784 /* LFSideHeaderCell.swift */; };
+		555B9A231EDDD7AB00B22784 /* LFSideHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555B9A081EDDD7AB00B22784 /* LFSideHeaderCell.xib */; };
+		555B9A241EDDD7AB00B22784 /* LFSideViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A091EDDD7AB00B22784 /* LFSideViewTableViewCell.swift */; };
+		555B9A251EDDD7AB00B22784 /* LFSideViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555B9A0A1EDDD7AB00B22784 /* LFSideViewTableViewCell.xib */; };
+		555B9A261EDDD7AB00B22784 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A0D1EDDD7AB00B22784 /* SWRevealViewController.m */; };
+		555B9A271EDDD7AB00B22784 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A0F1EDDD7AB00B22784 /* CommonUtils.swift */; };
+		555B9A281EDDD7AB00B22784 /* LiftUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A101EDDD7AB00B22784 /* LiftUtils.swift */; };
+		555B9A291EDDD7AB00B22784 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A121EDDD7AB00B22784 /* HomeViewController.swift */; };
+		555B9A2A1EDDD7AB00B22784 /* LFSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A131EDDD7AB00B22784 /* LFSideViewController.swift */; };
+		555B9A2B1EDDD7AB00B22784 /* LiftRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A141EDDD7AB00B22784 /* LiftRegisterViewController.swift */; };
+		555B9A2C1EDDD7AB00B22784 /* LiftSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A151EDDD7AB00B22784 /* LiftSignInViewController.swift */; };
+		555B9A2D1EDDD7AB00B22784 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A161EDDD7AB00B22784 /* MenuViewController.swift */; };
+		555B9A2F1EDDD82C00B22784 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 555B9A2E1EDDD82C00B22784 /* Default-568h@2x.png */; };
 		55BD34E656947F57E9595C29 /* Pods_Lift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D43200F4D658ADC2204C864 /* Pods_Lift.framework */; };
 		6E920D8B1E9385BB00A9F64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E920D8A1E9385BB00A9F64A /* AppDelegate.swift */; };
-		6E920D901E9385BB00A9F64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E920D8E1E9385BB00A9F64A /* Main.storyboard */; };
-		6E920D931E9385BB00A9F64A /* Lift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E920D911E9385BB00A9F64A /* Lift.xcdatamodeld */; };
 		6E920D951E9385BB00A9F64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E920D941E9385BB00A9F64A /* Assets.xcassets */; };
-		6E920D981E9385BB00A9F64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E920D961E9385BB00A9F64A /* LaunchScreen.storyboard */; };
 		6E920DA31E9385BB00A9F64A /* LiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E920DA21E9385BB00A9F64A /* LiftTests.swift */; };
 		6E920DAE1E9385BB00A9F64A /* LiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E920DAD1E9385BB00A9F64A /* LiftUITests.swift */; };
-		6E920DBC1E94D99800A9F64A /* LiftSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E920DBB1E94D99800A9F64A /* LiftSignInViewController.swift */; };
-		6E920DBE1E94EA3100A9F64A /* LiftRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E920DBD1E94EA3100A9F64A /* LiftRegisterViewController.swift */; };
 		76B04E384AA3DCA13BF5AE30 /* Pods_LiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F80618A18E866D57FA1EEB4 /* Pods_LiftUITests.framework */; };
 		79AAEF4D29272DFAC9B10BFD /* Pods_LiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62B5A0BB06F88D90299AD05 /* Pods_LiftTests.framework */; };
-		9504733A1EC99007003AAEA1 /* Lift_Icons.006.png in Resources */ = {isa = PBXBuildFile; fileRef = 950473391EC99007003AAEA1 /* Lift_Icons.006.png */; };
-		9519726F1ECB27E300F7911F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9519726E1ECB27E300F7911F /* GoogleService-Info.plist */; };
-		951972731ECB506C00F7911F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 951972721ECB506C00F7911F /* Podfile */; };
-		95C773471ECAD7EB00E397D8 /* navigateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 95C773461ECAD7EB00E397D8 /* navigateIcon.png */; };
-		95C773491ECAD8AC00E397D8 /* profileIcon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 95C773481ECAD8AC00E397D8 /* profileIcon3.png */; };
-		95DE88A31EC2F12B000C0C60 /* LiftUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DE88A21EC2F12B000C0C60 /* LiftUtils.swift */; };
-		95DE88A51EC2F140000C0C60 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DE88A41EC2F140000C0C60 /* CommonUtils.swift */; };
-		95DE88A71EC32BF4000C0C60 /* registerBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DE88A61EC32BF4000C0C60 /* registerBackground.png */; };
-		95DE88AD1EC4470B000C0C60 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DE88AC1EC4470B000C0C60 /* SWRevealViewController.m */; };
-		95DE88B01EC44EAF000C0C60 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DE88AF1EC44EAF000C0C60 /* HomeViewController.swift */; };
-		95DE88B21EC44EC2000C0C60 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DE88B11EC44EC2000C0C60 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,38 +57,41 @@
 
 /* Begin PBXFileReference section */
 		4D43200F4D658ADC2204C864 /* Pods_Lift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		557FF0AD1ED899FA00A1C29F /* LFSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFSideViewController.swift; sourceTree = "<group>"; };
-		557FF0AE1ED899FA00A1C29F /* LFSideViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFSideViewTableViewCell.swift; sourceTree = "<group>"; };
-		557FF0AF1ED899FA00A1C29F /* LFSideViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFSideViewTableViewCell.xib; sourceTree = "<group>"; };
+		555B99F71EDDD7AB00B22784 /* Lift_Icons.006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lift_Icons.006.png; sourceTree = "<group>"; };
+		555B99F81EDDD7AB00B22784 /* navigateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigateIcon.png; sourceTree = "<group>"; };
+		555B99F91EDDD7AB00B22784 /* profileIcon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileIcon3.png; sourceTree = "<group>"; };
+		555B99FA1EDDD7AB00B22784 /* registerBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerBackground.png; sourceTree = "<group>"; };
+		555B99FC1EDDD7AB00B22784 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		555B99FD1EDDD7AB00B22784 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		555B99FF1EDDD7AB00B22784 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		555B9A001EDDD7AB00B22784 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555B9A011EDDD7AB00B22784 /* Lift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Lift-Bridging-Header.h"; sourceTree = "<group>"; };
+		555B9A051EDDD7AB00B22784 /* LFSideFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFSideFooterView.swift; sourceTree = "<group>"; };
+		555B9A061EDDD7AB00B22784 /* LFSideFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFSideFooterView.xib; sourceTree = "<group>"; };
+		555B9A071EDDD7AB00B22784 /* LFSideHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFSideHeaderCell.swift; sourceTree = "<group>"; };
+		555B9A081EDDD7AB00B22784 /* LFSideHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFSideHeaderCell.xib; sourceTree = "<group>"; };
+		555B9A091EDDD7AB00B22784 /* LFSideViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFSideViewTableViewCell.swift; sourceTree = "<group>"; };
+		555B9A0A1EDDD7AB00B22784 /* LFSideViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFSideViewTableViewCell.xib; sourceTree = "<group>"; };
+		555B9A0C1EDDD7AB00B22784 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		555B9A0D1EDDD7AB00B22784 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		555B9A0F1EDDD7AB00B22784 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		555B9A101EDDD7AB00B22784 /* LiftUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftUtils.swift; sourceTree = "<group>"; };
+		555B9A121EDDD7AB00B22784 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		555B9A131EDDD7AB00B22784 /* LFSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFSideViewController.swift; sourceTree = "<group>"; };
+		555B9A141EDDD7AB00B22784 /* LiftRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftRegisterViewController.swift; sourceTree = "<group>"; };
+		555B9A151EDDD7AB00B22784 /* LiftSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftSignInViewController.swift; sourceTree = "<group>"; };
+		555B9A161EDDD7AB00B22784 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		555B9A2E1EDDD82C00B22784 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6E920D871E9385BB00A9F64A /* Lift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E920D8A1E9385BB00A9F64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E920D8F1E9385BB00A9F64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6E920D921E9385BB00A9F64A /* Lift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lift.xcdatamodel; sourceTree = "<group>"; };
 		6E920D941E9385BB00A9F64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6E920D971E9385BB00A9F64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6E920D991E9385BB00A9F64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E920D9E1E9385BB00A9F64A /* LiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E920DA21E9385BB00A9F64A /* LiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftTests.swift; sourceTree = "<group>"; };
 		6E920DA41E9385BB00A9F64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E920DA91E9385BB00A9F64A /* LiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E920DAD1E9385BB00A9F64A /* LiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftUITests.swift; sourceTree = "<group>"; };
 		6E920DAF1E9385BB00A9F64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E920DBB1E94D99800A9F64A /* LiftSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftSignInViewController.swift; sourceTree = "<group>"; };
-		6E920DBD1E94EA3100A9F64A /* LiftRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftRegisterViewController.swift; sourceTree = "<group>"; };
 		8F0CCBCD38ED74C431056123 /* Pods-Lift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lift/Pods-Lift.debug.xcconfig"; sourceTree = "<group>"; };
-		950473391EC99007003AAEA1 /* Lift_Icons.006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lift_Icons.006.png; sourceTree = "<group>"; };
-		9519726E1ECB27E300F7911F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		951972721ECB506C00F7911F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95C773461ECAD7EB00E397D8 /* navigateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigateIcon.png; sourceTree = "<group>"; };
-		95C773481ECAD8AC00E397D8 /* profileIcon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileIcon3.png; sourceTree = "<group>"; };
-		95DE88A21EC2F12B000C0C60 /* LiftUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftUtils.swift; sourceTree = "<group>"; };
-		95DE88A41EC2F140000C0C60 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
-		95DE88A61EC32BF4000C0C60 /* registerBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerBackground.png; sourceTree = "<group>"; };
-		95DE88AA1EC4470A000C0C60 /* Lift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lift-Bridging-Header.h"; sourceTree = "<group>"; };
-		95DE88AB1EC4470B000C0C60 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		95DE88AC1EC4470B000C0C60 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		95DE88AF1EC44EAF000C0C60 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		95DE88B11EC44EC2000C0C60 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		986625541D712941188629EA /* Pods-LiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiftUITests/Pods-LiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9F80618A18E866D57FA1EEB4 /* Pods_LiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28BD8FF10217540D66843C4 /* Pods-Lift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lift/Pods-Lift.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,20 +129,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		557FF0AC1ED899FA00A1C29F /* SideViewController */ = {
+		555B99F61EDDD7AB00B22784 /* DummyImages */ = {
 			isa = PBXGroup;
 			children = (
-				557FF0AD1ED899FA00A1C29F /* LFSideViewController.swift */,
-				557FF0AE1ED899FA00A1C29F /* LFSideViewTableViewCell.swift */,
-				557FF0AF1ED899FA00A1C29F /* LFSideViewTableViewCell.xib */,
+				555B99F71EDDD7AB00B22784 /* Lift_Icons.006.png */,
+				555B99F81EDDD7AB00B22784 /* navigateIcon.png */,
+				555B99F91EDDD7AB00B22784 /* profileIcon3.png */,
+				555B99FA1EDDD7AB00B22784 /* registerBackground.png */,
 			);
-			path = SideViewController;
+			path = DummyImages;
+			sourceTree = "<group>";
+		};
+		555B99FB1EDDD7AB00B22784 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				555B99FC1EDDD7AB00B22784 /* LaunchScreen.storyboard */,
+				555B99FD1EDDD7AB00B22784 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		555B99FE1EDDD7AB00B22784 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				555B99FF1EDDD7AB00B22784 /* GoogleService-Info.plist */,
+				555B9A001EDDD7AB00B22784 /* Info.plist */,
+				555B9A011EDDD7AB00B22784 /* Lift-Bridging-Header.h */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		555B9A041EDDD7AB00B22784 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				555B9A051EDDD7AB00B22784 /* LFSideFooterView.swift */,
+				555B9A061EDDD7AB00B22784 /* LFSideFooterView.xib */,
+				555B9A071EDDD7AB00B22784 /* LFSideHeaderCell.swift */,
+				555B9A081EDDD7AB00B22784 /* LFSideHeaderCell.xib */,
+				555B9A091EDDD7AB00B22784 /* LFSideViewTableViewCell.swift */,
+				555B9A0A1EDDD7AB00B22784 /* LFSideViewTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		555B9A0B1EDDD7AB00B22784 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				555B9A0C1EDDD7AB00B22784 /* SWRevealViewController.h */,
+				555B9A0D1EDDD7AB00B22784 /* SWRevealViewController.m */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		555B9A0E1EDDD7AB00B22784 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				555B9A0F1EDDD7AB00B22784 /* CommonUtils.swift */,
+				555B9A101EDDD7AB00B22784 /* LiftUtils.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		555B9A111EDDD7AB00B22784 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				555B9A121EDDD7AB00B22784 /* HomeViewController.swift */,
+				555B9A131EDDD7AB00B22784 /* LFSideViewController.swift */,
+				555B9A141EDDD7AB00B22784 /* LiftRegisterViewController.swift */,
+				555B9A151EDDD7AB00B22784 /* LiftSignInViewController.swift */,
+				555B9A161EDDD7AB00B22784 /* MenuViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		6E920D7E1E9385BA00A9F64A = {
 			isa = PBXGroup;
 			children = (
-				951972721ECB506C00F7911F /* Podfile */,
+				555B9A2E1EDDD82C00B22784 /* Default-568h@2x.png */,
 				6E920D891E9385BB00A9F64A /* Lift */,
 				6E920DA11E9385BB00A9F64A /* LiftTests */,
 				6E920DAC1E9385BB00A9F64A /* LiftUITests */,
@@ -159,26 +228,15 @@
 		6E920D891E9385BB00A9F64A /* Lift */ = {
 			isa = PBXGroup;
 			children = (
-				95DE88AE1EC44711000C0C60 /* SWRevealView */,
-				95DE88A61EC32BF4000C0C60 /* registerBackground.png */,
+				555B99F61EDDD7AB00B22784 /* DummyImages */,
+				555B99FB1EDDD7AB00B22784 /* StoryBoards */,
+				555B99FE1EDDD7AB00B22784 /* SupportingFiles */,
+				555B9A041EDDD7AB00B22784 /* TableViewCells */,
+				555B9A0B1EDDD7AB00B22784 /* ThirdParty */,
+				555B9A0E1EDDD7AB00B22784 /* Utility */,
+				555B9A111EDDD7AB00B22784 /* ViewControllers */,
 				6E920D8A1E9385BB00A9F64A /* AppDelegate.swift */,
-				6E920D8E1E9385BB00A9F64A /* Main.storyboard */,
-				950473391EC99007003AAEA1 /* Lift_Icons.006.png */,
-				95C773481ECAD8AC00E397D8 /* profileIcon3.png */,
-				95C773461ECAD7EB00E397D8 /* navigateIcon.png */,
 				6E920D941E9385BB00A9F64A /* Assets.xcassets */,
-				6E920D961E9385BB00A9F64A /* LaunchScreen.storyboard */,
-				6E920D991E9385BB00A9F64A /* Info.plist */,
-				6E920D911E9385BB00A9F64A /* Lift.xcdatamodeld */,
-				557FF0AC1ED899FA00A1C29F /* SideViewController */,
-				6E920DBB1E94D99800A9F64A /* LiftSignInViewController.swift */,
-				6E920DBD1E94EA3100A9F64A /* LiftRegisterViewController.swift */,
-				95DE88A21EC2F12B000C0C60 /* LiftUtils.swift */,
-				95DE88A41EC2F140000C0C60 /* CommonUtils.swift */,
-				95DE88AA1EC4470A000C0C60 /* Lift-Bridging-Header.h */,
-				95DE88AF1EC44EAF000C0C60 /* HomeViewController.swift */,
-				95DE88B11EC44EC2000C0C60 /* MenuViewController.swift */,
-				9519726E1ECB27E300F7911F /* GoogleService-Info.plist */,
 			);
 			path = Lift;
 			sourceTree = "<group>";
@@ -212,15 +270,6 @@
 				986625541D712941188629EA /* Pods-LiftUITests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		95DE88AE1EC44711000C0C60 /* SWRevealView */ = {
-			isa = PBXGroup;
-			children = (
-				95DE88AB1EC4470B000C0C60 /* SWRevealViewController.h */,
-				95DE88AC1EC4470B000C0C60 /* SWRevealViewController.m */,
-			);
-			name = SWRevealView;
 			sourceTree = "<group>";
 		};
 		DA22AE167093DBF251A23F49 /* Frameworks */ = {
@@ -353,16 +402,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				951972731ECB506C00F7911F /* Podfile in Resources */,
-				9504733A1EC99007003AAEA1 /* Lift_Icons.006.png in Resources */,
-				6E920D981E9385BB00A9F64A /* LaunchScreen.storyboard in Resources */,
 				6E920D951E9385BB00A9F64A /* Assets.xcassets in Resources */,
-				95C773491ECAD8AC00E397D8 /* profileIcon3.png in Resources */,
-				557FF0B21ED899FA00A1C29F /* LFSideViewTableViewCell.xib in Resources */,
-				95C773471ECAD7EB00E397D8 /* navigateIcon.png in Resources */,
-				9519726F1ECB27E300F7911F /* GoogleService-Info.plist in Resources */,
-				95DE88A71EC32BF4000C0C60 /* registerBackground.png in Resources */,
-				6E920D901E9385BB00A9F64A /* Main.storyboard in Resources */,
+				555B9A1D1EDDD7AB00B22784 /* GoogleService-Info.plist in Resources */,
+				555B9A171EDDD7AB00B22784 /* Lift_Icons.006.png in Resources */,
+				555B9A1C1EDDD7AB00B22784 /* Main.storyboard in Resources */,
+				555B9A251EDDD7AB00B22784 /* LFSideViewTableViewCell.xib in Resources */,
+				555B9A181EDDD7AB00B22784 /* navigateIcon.png in Resources */,
+				555B9A1B1EDDD7AB00B22784 /* LaunchScreen.storyboard in Resources */,
+				555B9A1A1EDDD7AB00B22784 /* registerBackground.png in Resources */,
+				555B9A211EDDD7AB00B22784 /* LFSideFooterView.xib in Resources */,
+				555B9A2F1EDDD82C00B22784 /* Default-568h@2x.png in Resources */,
+				555B9A231EDDD7AB00B22784 /* LFSideHeaderCell.xib in Resources */,
+				555B9A191EDDD7AB00B22784 /* profileIcon3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,17 +576,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95DE88AD1EC4470B000C0C60 /* SWRevealViewController.m in Sources */,
+				555B9A2B1EDDD7AB00B22784 /* LiftRegisterViewController.swift in Sources */,
+				555B9A281EDDD7AB00B22784 /* LiftUtils.swift in Sources */,
+				555B9A261EDDD7AB00B22784 /* SWRevealViewController.m in Sources */,
+				555B9A2D1EDDD7AB00B22784 /* MenuViewController.swift in Sources */,
 				6E920D8B1E9385BB00A9F64A /* AppDelegate.swift in Sources */,
-				95DE88A31EC2F12B000C0C60 /* LiftUtils.swift in Sources */,
-				95DE88B01EC44EAF000C0C60 /* HomeViewController.swift in Sources */,
-				95DE88B21EC44EC2000C0C60 /* MenuViewController.swift in Sources */,
-				557FF0B11ED899FA00A1C29F /* LFSideViewTableViewCell.swift in Sources */,
-				6E920D931E9385BB00A9F64A /* Lift.xcdatamodeld in Sources */,
-				6E920DBC1E94D99800A9F64A /* LiftSignInViewController.swift in Sources */,
-				95DE88A51EC2F140000C0C60 /* CommonUtils.swift in Sources */,
-				6E920DBE1E94EA3100A9F64A /* LiftRegisterViewController.swift in Sources */,
-				557FF0B01ED899FA00A1C29F /* LFSideViewController.swift in Sources */,
+				555B9A221EDDD7AB00B22784 /* LFSideHeaderCell.swift in Sources */,
+				555B9A291EDDD7AB00B22784 /* HomeViewController.swift in Sources */,
+				555B9A201EDDD7AB00B22784 /* LFSideFooterView.swift in Sources */,
+				555B9A2C1EDDD7AB00B22784 /* LiftSignInViewController.swift in Sources */,
+				555B9A271EDDD7AB00B22784 /* CommonUtils.swift in Sources */,
+				555B9A2A1EDDD7AB00B22784 /* LFSideViewController.swift in Sources */,
+				555B9A241EDDD7AB00B22784 /* LFSideViewTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,25 +621,6 @@
 			targetProxy = 6E920DAA1E9385BB00A9F64A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6E920D8E1E9385BB00A9F64A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E920D8F1E9385BB00A9F64A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6E920D961E9385BB00A9F64A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E920D971E9385BB00A9F64A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6E920DB01E9385BB00A9F64A /* Debug */ = {
@@ -693,11 +726,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8ASPD44426;
-				INFOPLIST_FILE = Lift/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Lift/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.idroidz.Lift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Lift/Lift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/navya/Documents/Venky_Projects/Lift-iOS/Lift/SupportingFiles/Lift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -710,11 +743,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8ASPD44426;
-				INFOPLIST_FILE = Lift/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Lift/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.idroidz.Lift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Lift/Lift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/navya/Documents/Venky_Projects/Lift-iOS/Lift/SupportingFiles/Lift-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -821,19 +854,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		6E920D911E9385BB00A9F64A /* Lift.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				6E920D921E9385BB00A9F64A /* Lift.xcdatamodel */,
-			);
-			currentVersion = 6E920D921E9385BB00A9F64A /* Lift.xcdatamodel */;
-			path = Lift.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 6E920D7F1E9385BA00A9F64A /* Project object */;
 }

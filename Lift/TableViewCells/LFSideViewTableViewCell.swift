@@ -10,6 +10,11 @@ import UIKit
 
 class LFSideViewTableViewCell: UITableViewCell {
 
+    @IBOutlet var BaseView: UIView!
+    @IBOutlet var sideCellImage: UIImageView!
+    @IBOutlet var sideCellLabel: UILabel!
+    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

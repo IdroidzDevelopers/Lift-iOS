@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LFSideFooterView" customModule="Lift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="131"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2LJ-Vy-hmJ">
+                    <rect key="frame" x="0.0" y="0.0" width="360" height="131"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ag9-G5-cJE">
+                            <rect key="frame" x="8" y="8" width="344" height="40"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share it" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXi-uO-PxF">
+                                    <rect key="frame" x="0.0" y="0.0" width="172" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="pqI-et-e9n"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="16"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text=" lift" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fv-yd-f5S">
+                                    <rect key="frame" x="172" y="0.0" width="172" height="40"/>
+                                    <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="26"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="2fv-yd-f5S" firstAttribute="width" secondItem="gXi-uO-PxF" secondAttribute="width" id="35b-kX-6Js"/>
+                                <constraint firstItem="2fv-yd-f5S" firstAttribute="leading" secondItem="gXi-uO-PxF" secondAttribute="trailing" id="3QM-MY-epL"/>
+                                <constraint firstItem="2fv-yd-f5S" firstAttribute="top" secondItem="ag9-G5-cJE" secondAttribute="top" id="Hu6-ya-YO0"/>
+                                <constraint firstAttribute="bottom" secondItem="gXi-uO-PxF" secondAttribute="bottom" id="I2s-xh-LgJ"/>
+                                <constraint firstAttribute="bottom" secondItem="2fv-yd-f5S" secondAttribute="bottom" id="SbW-2a-fBJ"/>
+                                <constraint firstItem="gXi-uO-PxF" firstAttribute="leading" secondItem="ag9-G5-cJE" secondAttribute="leading" id="eB2-BS-JyR"/>
+                                <constraint firstItem="gXi-uO-PxF" firstAttribute="top" secondItem="ag9-G5-cJE" secondAttribute="top" id="eqA-W4-EhP"/>
+                                <constraint firstAttribute="trailing" secondItem="2fv-yd-f5S" secondAttribute="trailing" id="l2f-Kv-N08"/>
+                                <constraint firstItem="2fv-yd-f5S" firstAttribute="height" secondItem="gXi-uO-PxF" secondAttribute="height" id="sho-Ce-yD4"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n0O-Oi-5ms">
+                            <rect key="frame" x="8" y="56" width="344" height="35"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Mq5-CQ-gpH">
+                                    <rect key="frame" x="43" y="5" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="Kfu-gz-Zaa"/>
+                                    </constraints>
+                                    <state key="normal" image="facebookIcon"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwW-RX-abx">
+                                    <rect key="frame" x="121" y="5" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="Ujh-Q3-C72"/>
+                                    </constraints>
+                                    <state key="normal" image="googleIcon"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLe-ZB-TSZ">
+                                    <rect key="frame" x="199" y="5" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="geh-Jg-9ok"/>
+                                    </constraints>
+                                    <state key="normal" image="LinkedIn_Icon"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtv-UP-Egt">
+                                    <rect key="frame" x="277" y="5" width="25" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="Instagram_Icon"/>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="nwW-RX-abx" firstAttribute="leading" secondItem="Mq5-CQ-gpH" secondAttribute="trailing" constant="53" id="3gu-cH-sNb"/>
+                                <constraint firstItem="Mq5-CQ-gpH" firstAttribute="bottom" secondItem="nwW-RX-abx" secondAttribute="bottom" id="4qg-eK-tCG"/>
+                                <constraint firstItem="nwW-RX-abx" firstAttribute="bottom" secondItem="FLe-ZB-TSZ" secondAttribute="bottom" id="DAn-Mg-awU"/>
+                                <constraint firstItem="Mq5-CQ-gpH" firstAttribute="centerY" secondItem="n0O-Oi-5ms" secondAttribute="centerY" id="Dsv-ly-TQD"/>
+                                <constraint firstItem="Mq5-CQ-gpH" firstAttribute="top" secondItem="n0O-Oi-5ms" secondAttribute="top" constant="5" id="QIZ-jg-q94"/>
+                                <constraint firstItem="Mq5-CQ-gpH" firstAttribute="leading" secondItem="n0O-Oi-5ms" secondAttribute="leading" constant="43" id="SKw-EK-2gi"/>
+                                <constraint firstItem="FLe-ZB-TSZ" firstAttribute="leading" secondItem="nwW-RX-abx" secondAttribute="trailing" constant="53" id="cFR-Qx-WJK"/>
+                                <constraint firstItem="nwW-RX-abx" firstAttribute="top" secondItem="FLe-ZB-TSZ" secondAttribute="top" id="oXo-85-Osp"/>
+                                <constraint firstItem="Mq5-CQ-gpH" firstAttribute="top" secondItem="nwW-RX-abx" secondAttribute="top" id="wcl-Wu-Jti"/>
+                                <constraint firstAttribute="height" constant="35" id="zbf-hP-VnY"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.079400028410000004" green="0.64246827669999995" blue="0.65717843769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="n0O-Oi-5ms" secondAttribute="trailing" constant="8" id="40b-Ea-vGY"/>
+                        <constraint firstItem="n0O-Oi-5ms" firstAttribute="top" secondItem="ag9-G5-cJE" secondAttribute="bottom" constant="8" id="E8n-i6-Qgr"/>
+                        <constraint firstItem="n0O-Oi-5ms" firstAttribute="leading" secondItem="2LJ-Vy-hmJ" secondAttribute="leading" constant="8" id="Nad-p8-IuS"/>
+                        <constraint firstItem="n0O-Oi-5ms" firstAttribute="top" secondItem="ag9-G5-cJE" secondAttribute="bottom" constant="8" id="V37-Ob-oac"/>
+                        <constraint firstItem="ag9-G5-cJE" firstAttribute="top" secondItem="2LJ-Vy-hmJ" secondAttribute="top" constant="8" id="Vxu-hE-R0x"/>
+                        <constraint firstAttribute="bottom" secondItem="n0O-Oi-5ms" secondAttribute="bottom" constant="40" id="emM-Tc-mja"/>
+                        <constraint firstAttribute="trailing" secondItem="ag9-G5-cJE" secondAttribute="trailing" constant="8" id="nhA-AZ-1k3"/>
+                        <constraint firstItem="ag9-G5-cJE" firstAttribute="leading" secondItem="2LJ-Vy-hmJ" secondAttribute="leading" constant="8" id="obK-a5-o0a"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="2LJ-Vy-hmJ" secondAttribute="trailing" id="UUd-BK-ylv"/>
+                <constraint firstItem="2LJ-Vy-hmJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sn6-9h-oh2"/>
+                <constraint firstAttribute="bottom" secondItem="2LJ-Vy-hmJ" secondAttribute="bottom" id="vgO-LH-jhg"/>
+                <constraint firstItem="2LJ-Vy-hmJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zpl-rl-oLf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="4" y="-338.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Instagram_Icon" width="100" height="100"/>
+        <image name="LinkedIn_Icon" width="100" height="100"/>
+        <image name="facebookIcon" width="48" height="48"/>
+        <image name="googleIcon" width="48" height="48"/>
+    </resources>
+</document>
