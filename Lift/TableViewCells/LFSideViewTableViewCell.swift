@@ -13,6 +13,7 @@ class LFSideViewTableViewCell: UITableViewCell {
     @IBOutlet var BaseView: UIView!
     @IBOutlet var sideCellImage: UIImageView!
     @IBOutlet var sideCellLabel: UILabel!
+    @IBOutlet var lineLabel: UILabel!
     
 
     override func awakeFromNib() {

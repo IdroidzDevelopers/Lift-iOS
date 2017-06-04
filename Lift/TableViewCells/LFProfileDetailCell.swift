@@ -1,16 +1,21 @@
 //
-//  LFSideHeaderCell.swift
+//  LFProfileDetailCell.swift
 //  Lift
 //
-//  Created by Navya on 5/29/17.
+//  Created by Navya on 5/31/17.
 //  Copyright © 2017 RadhikaX M V. All rights reserved.
 //
 
 import UIKit
 
-class LFSideHeaderCell: UITableViewCell {
+class LFProfileDetailCell: UITableViewCell {
 
-    @IBOutlet var arrowButton: UIButton!
+    @IBOutlet var baseView: UIView!
+    @IBOutlet var descimage: UIImageView!
+    @IBOutlet var lineView: UIView!
+    @IBOutlet var descLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

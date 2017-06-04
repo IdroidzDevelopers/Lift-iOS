@@ -16,8 +16,6 @@
 		555B9A1D1EDDD7AB00B22784 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 555B99FF1EDDD7AB00B22784 /* GoogleService-Info.plist */; };
 		555B9A201EDDD7AB00B22784 /* LFSideFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A051EDDD7AB00B22784 /* LFSideFooterView.swift */; };
 		555B9A211EDDD7AB00B22784 /* LFSideFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555B9A061EDDD7AB00B22784 /* LFSideFooterView.xib */; };
-		555B9A221EDDD7AB00B22784 /* LFSideHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A071EDDD7AB00B22784 /* LFSideHeaderCell.swift */; };
-		555B9A231EDDD7AB00B22784 /* LFSideHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555B9A081EDDD7AB00B22784 /* LFSideHeaderCell.xib */; };
 		555B9A241EDDD7AB00B22784 /* LFSideViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A091EDDD7AB00B22784 /* LFSideViewTableViewCell.swift */; };
 		555B9A251EDDD7AB00B22784 /* LFSideViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555B9A0A1EDDD7AB00B22784 /* LFSideViewTableViewCell.xib */; };
 		555B9A261EDDD7AB00B22784 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A0D1EDDD7AB00B22784 /* SWRevealViewController.m */; };
@@ -29,6 +27,14 @@
 		555B9A2C1EDDD7AB00B22784 /* LiftSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A151EDDD7AB00B22784 /* LiftSignInViewController.swift */; };
 		555B9A2D1EDDD7AB00B22784 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A161EDDD7AB00B22784 /* MenuViewController.swift */; };
 		555B9A2F1EDDD82C00B22784 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 555B9A2E1EDDD82C00B22784 /* Default-568h@2x.png */; };
+		555B9A341EDDE70300B22784 /* LFPofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B9A331EDDE70300B22784 /* LFPofileViewController.swift */; };
+		5595722C1EE3EC9C0045DCEC /* LFProfileViewFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5595722B1EE3EC9C0045DCEC /* LFProfileViewFooter.xib */; };
+		5595722E1EE3EECF0045DCEC /* LFProfileViewFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595722D1EE3EECF0045DCEC /* LFProfileViewFooter.swift */; };
+		55B414B71EDE850600DB3C23 /* LiftDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55B414B51EDE850600DB3C23 /* LiftDataModel.xcdatamodeld */; };
+		55B414BA1EDE8DA100DB3C23 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B414B91EDE8DA100DB3C23 /* HCSStarRatingView.m */; };
+		55B414BD1EDE999C00DB3C23 /* LFProfileDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B414BB1EDE999C00DB3C23 /* LFProfileDetailCell.swift */; };
+		55B414BE1EDE999C00DB3C23 /* LFProfileDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55B414BC1EDE999C00DB3C23 /* LFProfileDetailCell.xib */; };
+		55B414C11EDEA5F300DB3C23 /* LFBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B414C01EDEA5F300DB3C23 /* LFBaseVC.swift */; };
 		55BD34E656947F57E9595C29 /* Pods_Lift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D43200F4D658ADC2204C864 /* Pods_Lift.framework */; };
 		6E920D8B1E9385BB00A9F64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E920D8A1E9385BB00A9F64A /* AppDelegate.swift */; };
 		6E920D951E9385BB00A9F64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E920D941E9385BB00A9F64A /* Assets.xcassets */; };
@@ -68,8 +74,6 @@
 		555B9A011EDDD7AB00B22784 /* Lift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Lift-Bridging-Header.h"; sourceTree = "<group>"; };
 		555B9A051EDDD7AB00B22784 /* LFSideFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFSideFooterView.swift; sourceTree = "<group>"; };
 		555B9A061EDDD7AB00B22784 /* LFSideFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFSideFooterView.xib; sourceTree = "<group>"; };
-		555B9A071EDDD7AB00B22784 /* LFSideHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFSideHeaderCell.swift; sourceTree = "<group>"; };
-		555B9A081EDDD7AB00B22784 /* LFSideHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFSideHeaderCell.xib; sourceTree = "<group>"; };
 		555B9A091EDDD7AB00B22784 /* LFSideViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFSideViewTableViewCell.swift; sourceTree = "<group>"; };
 		555B9A0A1EDDD7AB00B22784 /* LFSideViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFSideViewTableViewCell.xib; sourceTree = "<group>"; };
 		555B9A0C1EDDD7AB00B22784 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -82,6 +86,15 @@
 		555B9A151EDDD7AB00B22784 /* LiftSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftSignInViewController.swift; sourceTree = "<group>"; };
 		555B9A161EDDD7AB00B22784 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		555B9A2E1EDDD82C00B22784 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		555B9A331EDDE70300B22784 /* LFPofileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFPofileViewController.swift; sourceTree = "<group>"; };
+		5595722B1EE3EC9C0045DCEC /* LFProfileViewFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFProfileViewFooter.xib; sourceTree = "<group>"; };
+		5595722D1EE3EECF0045DCEC /* LFProfileViewFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFProfileViewFooter.swift; sourceTree = "<group>"; };
+		55B414B61EDE850600DB3C23 /* LiftDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiftDataModel.xcdatamodel; sourceTree = "<group>"; };
+		55B414B81EDE8DA100DB3C23 /* HCSStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSStarRatingView.h; sourceTree = "<group>"; };
+		55B414B91EDE8DA100DB3C23 /* HCSStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSStarRatingView.m; sourceTree = "<group>"; };
+		55B414BB1EDE999C00DB3C23 /* LFProfileDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFProfileDetailCell.swift; sourceTree = "<group>"; };
+		55B414BC1EDE999C00DB3C23 /* LFProfileDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFProfileDetailCell.xib; sourceTree = "<group>"; };
+		55B414C01EDEA5F300DB3C23 /* LFBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFBaseVC.swift; sourceTree = "<group>"; };
 		6E920D871E9385BB00A9F64A /* Lift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E920D8A1E9385BB00A9F64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E920D941E9385BB00A9F64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -164,10 +177,12 @@
 			children = (
 				555B9A051EDDD7AB00B22784 /* LFSideFooterView.swift */,
 				555B9A061EDDD7AB00B22784 /* LFSideFooterView.xib */,
-				555B9A071EDDD7AB00B22784 /* LFSideHeaderCell.swift */,
-				555B9A081EDDD7AB00B22784 /* LFSideHeaderCell.xib */,
 				555B9A091EDDD7AB00B22784 /* LFSideViewTableViewCell.swift */,
 				555B9A0A1EDDD7AB00B22784 /* LFSideViewTableViewCell.xib */,
+				55B414BB1EDE999C00DB3C23 /* LFProfileDetailCell.swift */,
+				55B414BC1EDE999C00DB3C23 /* LFProfileDetailCell.xib */,
+				5595722D1EE3EECF0045DCEC /* LFProfileViewFooter.swift */,
+				5595722B1EE3EC9C0045DCEC /* LFProfileViewFooter.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -175,6 +190,8 @@
 		555B9A0B1EDDD7AB00B22784 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				55B414B81EDE8DA100DB3C23 /* HCSStarRatingView.h */,
+				55B414B91EDE8DA100DB3C23 /* HCSStarRatingView.m */,
 				555B9A0C1EDDD7AB00B22784 /* SWRevealViewController.h */,
 				555B9A0D1EDDD7AB00B22784 /* SWRevealViewController.m */,
 			);
@@ -193,13 +210,31 @@
 		555B9A111EDDD7AB00B22784 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				55B414BF1EDEA5D300DB3C23 /* BaseVC */,
 				555B9A121EDDD7AB00B22784 /* HomeViewController.swift */,
 				555B9A131EDDD7AB00B22784 /* LFSideViewController.swift */,
 				555B9A141EDDD7AB00B22784 /* LiftRegisterViewController.swift */,
 				555B9A151EDDD7AB00B22784 /* LiftSignInViewController.swift */,
 				555B9A161EDDD7AB00B22784 /* MenuViewController.swift */,
+				555B9A331EDDE70300B22784 /* LFPofileViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		55B414B41EDE84D600DB3C23 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				55B414B51EDE850600DB3C23 /* LiftDataModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		55B414BF1EDEA5D300DB3C23 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				55B414C01EDEA5F300DB3C23 /* LFBaseVC.swift */,
+			);
+			path = BaseVC;
 			sourceTree = "<group>";
 		};
 		6E920D7E1E9385BA00A9F64A = {
@@ -228,6 +263,7 @@
 		6E920D891E9385BB00A9F64A /* Lift */ = {
 			isa = PBXGroup;
 			children = (
+				55B414B41EDE84D600DB3C23 /* CoreData */,
 				555B99F61EDDD7AB00B22784 /* DummyImages */,
 				555B99FB1EDDD7AB00B22784 /* StoryBoards */,
 				555B99FE1EDDD7AB00B22784 /* SupportingFiles */,
@@ -405,6 +441,8 @@
 				6E920D951E9385BB00A9F64A /* Assets.xcassets in Resources */,
 				555B9A1D1EDDD7AB00B22784 /* GoogleService-Info.plist in Resources */,
 				555B9A171EDDD7AB00B22784 /* Lift_Icons.006.png in Resources */,
+				55B414BE1EDE999C00DB3C23 /* LFProfileDetailCell.xib in Resources */,
+				5595722C1EE3EC9C0045DCEC /* LFProfileViewFooter.xib in Resources */,
 				555B9A1C1EDDD7AB00B22784 /* Main.storyboard in Resources */,
 				555B9A251EDDD7AB00B22784 /* LFSideViewTableViewCell.xib in Resources */,
 				555B9A181EDDD7AB00B22784 /* navigateIcon.png in Resources */,
@@ -412,7 +450,6 @@
 				555B9A1A1EDDD7AB00B22784 /* registerBackground.png in Resources */,
 				555B9A211EDDD7AB00B22784 /* LFSideFooterView.xib in Resources */,
 				555B9A2F1EDDD82C00B22784 /* Default-568h@2x.png in Resources */,
-				555B9A231EDDD7AB00B22784 /* LFSideHeaderCell.xib in Resources */,
 				555B9A191EDDD7AB00B22784 /* profileIcon3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -576,13 +613,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5595722E1EE3EECF0045DCEC /* LFProfileViewFooter.swift in Sources */,
 				555B9A2B1EDDD7AB00B22784 /* LiftRegisterViewController.swift in Sources */,
+				55B414BA1EDE8DA100DB3C23 /* HCSStarRatingView.m in Sources */,
 				555B9A281EDDD7AB00B22784 /* LiftUtils.swift in Sources */,
+				55B414C11EDEA5F300DB3C23 /* LFBaseVC.swift in Sources */,
 				555B9A261EDDD7AB00B22784 /* SWRevealViewController.m in Sources */,
+				555B9A341EDDE70300B22784 /* LFPofileViewController.swift in Sources */,
+				55B414B71EDE850600DB3C23 /* LiftDataModel.xcdatamodeld in Sources */,
 				555B9A2D1EDDD7AB00B22784 /* MenuViewController.swift in Sources */,
 				6E920D8B1E9385BB00A9F64A /* AppDelegate.swift in Sources */,
-				555B9A221EDDD7AB00B22784 /* LFSideHeaderCell.swift in Sources */,
 				555B9A291EDDD7AB00B22784 /* HomeViewController.swift in Sources */,
+				55B414BD1EDE999C00DB3C23 /* LFProfileDetailCell.swift in Sources */,
 				555B9A201EDDD7AB00B22784 /* LFSideFooterView.swift in Sources */,
 				555B9A2C1EDDD7AB00B22784 /* LiftSignInViewController.swift in Sources */,
 				555B9A271EDDD7AB00B22784 /* CommonUtils.swift in Sources */,
@@ -854,6 +896,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		55B414B51EDE850600DB3C23 /* LiftDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				55B414B61EDE850600DB3C23 /* LiftDataModel.xcdatamodel */,
+			);
+			currentVersion = 55B414B61EDE850600DB3C23 /* LiftDataModel.xcdatamodel */;
+			path = LiftDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6E920D7F1E9385BA00A9F64A /* Project object */;
 }

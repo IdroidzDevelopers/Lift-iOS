@@ -8,19 +8,18 @@
 
 import UIKit
 
-class LFSideViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class LFSideViewController: LFBaseVC,UITableViewDelegate,UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
+    @IBOutlet var profileImage: UIImageView!
+
     var imagesArray  = [UIImage]()
     var dataArray: NSMutableArray = NSMutableArray()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        customFooter()
-        configureTableView()
-        loadDataSource()
+        customisingScreen()
         
-        // Do any additional setup after loading the view.
     }
     
     override func didReceiveMemoryWarning() {
@@ -29,17 +28,27 @@ class LFSideViewController: UIViewController,UITableViewDelegate,UITableViewData
     }
     
     // MARK: Custom Functions
-    func customFooter()  {
+
+    func customisingScreen() {
+        loadDataSource()
+        configureTableView()
+        addCustomFooter()
+        tableView.delegate = self
+        tableView.dataSource = self
+        profileImage.layer.cornerRadius = self.profileImage.frame.height / 2.0
+        profileImage.layer.masksToBounds = true
+
+        
+    }
+
+    func addCustomFooter()  {
         let  footerView = Bundle.main.loadNibNamed("LFSideFooterView", owner: nil, options: nil)![0] as! LFSideFooterView
         footerView.frame = CGRect(x: 0, y: self.view.frame.size.height - footerView.frame.height, width: self.view.frame.size.width, height: footerView.frame.height)
         self.view.addSubview(footerView as UIView)
     }
     
     func configureTableView() {
-        tableView.delegate = self
-        tableView.dataSource = self
         tableView.register(UINib(nibName: "LFSideViewTableViewCell", bundle: nil), forCellReuseIdentifier: "LFSideViewTableViewCell")
-        tableView.register(UINib(nibName: "LFSideHeaderCell", bundle: nil), forCellReuseIdentifier: "LFSideHeaderCell")
     }
     
     func loadDataSource() {
@@ -54,56 +63,32 @@ class LFSideViewController: UIViewController,UITableViewDelegate,UITableViewData
         tableView.reloadData()
     }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
-    }
-    // Default is 1 if not implemented
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        switch section {
-        case 1:
-            return imagesArray.count
-        default:
-            return 1
-        }
+        return imagesArray.count
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LFSideViewTableViewCell", for: indexPath) as! LFSideViewTableViewCell
+        cell.sideCellImage.image = imagesArray[indexPath.row]
+        cell.sideCellLabel.text = dataArray[indexPath.row] as? String
         
-        switch indexPath.section {
-        case 0:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "LFSideHeaderCell", for: indexPath) as! LFSideHeaderCell
-            cell.arrowButton.addTarget(self, action: #selector(moveToProfileSettingsScreen), for: .touchUpInside)
-            return cell
-        case 1:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "LFSideViewTableViewCell", for: indexPath) as! LFSideViewTableViewCell
-            cell.sideCellImage.image = imagesArray[indexPath.row]
-            cell.sideCellLabel.text = dataArray[indexPath.row] as? String
-            
-            return cell
-            
-        default:
-            return UITableViewCell()
-        }
-        
+        return cell
     }
     
     // custom view for header. will be adjusted to default or specified header height
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
-        switch indexPath.section {
-        case 0:
-            return 250
-        case 1:
-            return 44.0
-        default:
-            return 0
-        }
+        return 44.0
     }
+    
     @IBAction func moveToProfileSettingsScreen(_ sender: Any) {
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let VC1 = storyBoard.instantiateViewController(withIdentifier: "LFPofileViewController") as! LFPofileViewController
+        let navController = UINavigationController(rootViewController: VC1)
+        // Creating a navigation controller with VC1 at the root of the navigation stack.
+        self.present(navController, animated:true, completion: nil)
+        
         
     }
-
+    
 }
