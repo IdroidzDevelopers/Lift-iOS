@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="LFSideViewTableViewCell" rowHeight="52" id="KGk-i7-Jjw" customClass="LFSideViewTableViewCell" customModule="Lift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="379" height="51.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1sV-5G-koJ">
+                        <rect key="frame" x="0.0" y="0.0" width="379" height="52"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="registerBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="DRy-u5-P2s">
+                                <rect key="frame" x="40" y="11" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DRy-u5-P2s" secondAttribute="height" multiplier="1:1" id="eL6-Hz-TOX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gN6-Yz-znh">
+                                <rect key="frame" x="90" y="43" width="289" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+91 - 9999999999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIh-x3-WMx">
+                                <rect key="frame" x="90" y="14" width="281" height="25"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.079400028410000004" green="0.64246827669999995" blue="0.65717843769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DRy-u5-P2s" firstAttribute="leading" secondItem="1sV-5G-koJ" secondAttribute="leading" constant="40" id="6Ma-6F-Cx3"/>
+                            <constraint firstItem="HIh-x3-WMx" firstAttribute="leading" secondItem="DRy-u5-P2s" secondAttribute="trailing" constant="20" id="8Om-Gg-4g4"/>
+                            <constraint firstAttribute="bottom" secondItem="gN6-Yz-znh" secondAttribute="bottom" constant="8" id="CVB-Sk-kyy"/>
+                            <constraint firstItem="HIh-x3-WMx" firstAttribute="trailing" secondItem="1sV-5G-koJ" secondAttribute="trailingMargin" id="Fer-Hc-Abx"/>
+                            <constraint firstItem="HIh-x3-WMx" firstAttribute="top" secondItem="1sV-5G-koJ" secondAttribute="top" constant="14" id="Hrs-gy-qeC"/>
+                            <constraint firstItem="HIh-x3-WMx" firstAttribute="leading" secondItem="gN6-Yz-znh" secondAttribute="leading" id="Lih-15-cIp"/>
+                            <constraint firstAttribute="trailing" secondItem="gN6-Yz-znh" secondAttribute="trailing" id="PvA-s4-6nY"/>
+                            <constraint firstItem="DRy-u5-P2s" firstAttribute="centerY" secondItem="HIh-x3-WMx" secondAttribute="centerY" id="eQI-Tc-R7Q"/>
+                            <constraint firstItem="gN6-Yz-znh" firstAttribute="top" secondItem="HIh-x3-WMx" secondAttribute="bottom" constant="4" id="nnw-mP-7oy"/>
+                            <constraint firstItem="DRy-u5-P2s" firstAttribute="centerY" secondItem="1sV-5G-koJ" secondAttribute="centerY" id="xcd-7q-KMK"/>
+                            <constraint firstItem="gN6-Yz-znh" firstAttribute="leading" secondItem="1sV-5G-koJ" secondAttribute="leading" constant="90" id="ybe-RK-vpR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1sV-5G-koJ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="CVk-Vu-hXp"/>
+                    <constraint firstItem="1sV-5G-koJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="eFB-wp-8ig"/>
+                    <constraint firstItem="1sV-5G-koJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="nbM-3g-0fX"/>
+                    <constraint firstAttribute="trailing" secondItem="1sV-5G-koJ" secondAttribute="trailing" id="tjy-km-hi7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="BaseView" destination="1sV-5G-koJ" id="QI2-c2-l59"/>
+                <outlet property="lineLabel" destination="gN6-Yz-znh" id="Xei-Tz-Vzz"/>
+                <outlet property="sideCellImage" destination="DRy-u5-P2s" id="h85-Fx-d5l"/>
+                <outlet property="sideCellLabel" destination="HIh-x3-WMx" id="883-MB-8zY"/>
+            </connections>
+            <point key="canvasLocation" x="6.5" y="-122"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="registerBackground.png" width="377" height="669"/>
+    </resources>
+</document>
